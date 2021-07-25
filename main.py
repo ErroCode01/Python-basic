@@ -15,8 +15,39 @@ if 5>2:
   
   #multi values in variables
   x,y,z = "color",2,2.0,
+  print(type(x))
+  print(type(y))
+  print(type(z))
+  
+  #one value to many variables
+  x=y=z="Millions"
   print(x)
   print(y)
   print(z)
+  
+  #unpack the collection
+  fruits = ["apple","strawberry","cherry"]
+  x,y,z = fruits
+  print(x)
+  print(y)
+  print(z)
+  
+  #to combine text and variables
+  x = "bright"
+  print("Apple is " + x)
+  
+  x = " am "
+  y = "tired"
+  z = x + y
+  print(z)
+  
+  #Function
+  def gibs():
+    x = 20
+    y = 60
+    z = x + y
+    print(z)
+  gibs()
+  
   
   
