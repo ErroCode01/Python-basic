@@ -64,5 +64,15 @@ if 5>2:
   star()
   star()
   
+  #global variables
+  x = "grad"
+  
+  def points():
+    global x
+    x = "water"
+points()
+
+print(" Eternity is " + x)
+  
   
   
