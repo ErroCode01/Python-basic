@@ -49,5 +49,20 @@ if 5>2:
     print(z)
   gibs()
   
+  #function with parameter & arguments
+  def gibs(y):
+    x = 20
+    z = x + y
+    print(z)
+  gibs(20)
+  
+  #write once and use it many times
+  
+  def star():
+    name = "millions"
+    print("Give me",name)
+  star()
+  star()
+  
   
   
