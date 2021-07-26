@@ -74,5 +74,13 @@ points()
 
 print(" Eternity is " + x)
   
+ 
+def mid():
+  x = "diamond"
   
+mid()
+
+print("may be " + x)
+
+    
   
