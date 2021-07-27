@@ -82,5 +82,29 @@ mid()
 
 print("may be " + x)
 
+#Datatypes in python
+x = 100000
+def man():
+  y = 1000000
+  z = x+y
+  print(z)
+  
+#Type conversion
+
+x = 1
+y = 2.1
+
+a = float(x)
+b = int(y)
+
+print(a)
+print(b)
+
+#Random module
+
+import random
+
+print(random.choice(1,7))
+
     
   
