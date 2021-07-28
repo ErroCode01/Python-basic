@@ -104,7 +104,16 @@ print(b)
 
 import random
 
-print(random.choice(1,7))
+print(random.randrange(1,7))
+
+#Casting in python
+
+x = 2
+y = 2.1
+
+print(float(x))
+print(int(y))
+
 
     
   
