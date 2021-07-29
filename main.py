@@ -114,6 +114,16 @@ y = 2.1
 print(float(x))
 print(int(y))
 
+#String in python
 
+x = "Gibson"
+
+#checking string 
+
+txt = "Million dollar"
+print("Million" in txt)
+
+x = "Gibson will be millionaire soon!"
+print("millionaire" in x)
     
   
