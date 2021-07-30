@@ -125,5 +125,62 @@ print("Million" in txt)
 
 x = "Gibson will be millionaire soon!"
 print("millionaire" in x)
+
+#using in "if" statement
+
+room = "Millionaire gibson is in"
+if "gibson" in room:
+    print("yes,'gibson is present")
     
-  
+    
+    #Slicing String
+    
+    g = "hello,world"
+    print(g[1:6])
+    
+    #nagative indexing
+    
+    z = "gibson coin"
+    print(z[-5:-1])
+    
+    #modify string
+    
+    #1.uppper case
+    
+    g = "gibson"
+    print(g.upper())
+    
+    #2.lower case
+    
+    z = "GIBSON IS MILLIONAIRE BITCH!"
+    print(z.lower())
+    
+    #strip string
+    
+    ex = " fuck  you  !"
+    print(ex.strip())
+    
+    #Replace string 
+    
+    a = "Kello,world!"
+    print(a.replace("k", "h"))
+    
+    #Split to make list
+    
+    x = "gibs"
+    print(x.split(","))
+    
+    #format string
+    
+    a = 19
+    v = "am gibs and ,am {}"
+    print(v.format(a))
+    
+    #Python escape character
+    #use \" to add illegal word in string
+    
+    txt = "we are the so-called \"viking\" from north"
+    print(txt)
+    
+    
+          
